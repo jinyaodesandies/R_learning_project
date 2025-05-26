@@ -4,5 +4,4 @@ bar <- ggplot(data = diamonds)+
            width = 1)+
   theme(aspect.ratio = 1)+
   labs(x=NULL, y= NULL)
-bar+coord_flip()
 bar+coord_polar()

@@ -1,5 +1,3 @@
-libary(todyverse)
-
-ggplot(dTA = mpg) + 
-  geom_point(maping = aes(x = displ y = hwy)) +
-  geom_smooth(method = "lm)
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) +
+  geom_smooth(mapping = aes(x = displ, y = hwy), method = "lm")

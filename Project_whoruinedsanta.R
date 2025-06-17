@@ -3,4 +3,3 @@ delay <- flights|>
   count(carrier, sort= TRUE)
 total <- flights|>
   count(carrier, sort= TRUE)
-
